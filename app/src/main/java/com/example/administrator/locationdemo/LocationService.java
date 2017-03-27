@@ -21,13 +21,6 @@ import android.provider.Settings;
 import android.util.Log;
 import android.widget.Toast;
 
-/**
- * @description 
- * @charset UTF-8
- * @author xiong_it
- * @date 2015-7-20上午10:31:39
- * @version 
- */
 public class LocationService extends IntentService implements LocationListener{
 	private static final String TAG = "LocationService";
 	private static final String SERVICE_NAME = "LocationService";
